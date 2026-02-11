@@ -1,5 +1,5 @@
 {
-  "name": "@esign/esign-agent-trust",
+  "name": "@esign-cn/esign-agent-trust",
   "version": "1.0.1",
   "description": "AI Agent 身份认证与数字签名 SDK",
   "main": "dist/index.js",
