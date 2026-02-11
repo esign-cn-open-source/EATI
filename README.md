@@ -312,26 +312,6 @@ sequenceDiagram
     deactivate SDK
 ```
 
-## 证书 CN 字段格式
-
-CSR/证书的 CN (CommonName) 字段包含以下信息，使用**逗号分隔**：
-
-```
-AgentID|GuardianID|AEID|FrameworkType|Purpose
-```
-
-| 字段 | 说明 |
-|------|------|
-| AgentID | Agent 唯一标识 |
-| GuardianID | 监护人/所有者 ID（平台填充） |
-| AEID | 设备指纹哈希（48 位小写 hex） |
-| FrameworkType | Agent 框架类型（langchain/autogen/crewai/dify/coze/custom） |
-| Purpose | Agent 用途（assistant/coder/data-analyst 等） |
-
-**示例：**
-```
-MyAgent||7f2f9f8fba2f6ce58a57f0404c7e2dcac1f705e2df88eb5a|custom|assistant
-```
 
 ## 安全特性
 
