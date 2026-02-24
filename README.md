@@ -87,13 +87,13 @@ AI Agent 身份认证与数字签名 SDK（**v1.0 · 第一版**）
 ## 安装
 
 ```bash
-npm install esign-agent-trust
+npm install @esign-cn/esign-agent-trust
 ```
 
 或全局安装 CLI：
 
 ```bash
-npm install -g esign-agent-trust
+npm install -g @esign-cn/esign-agent-trust
 ```
 
 ## CLI 使用
